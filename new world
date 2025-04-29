@@ -1,10 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<h1><b>"Hello New World HTML"</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello world HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:#f0f6fc;
+      color:blue;
+      padding: 40px;
+      margin: 0;
+    }
+    h1 {
+      color: #1e6091;
+      text-align: center;
+    }
+    .summary {
+      background-color: #fff;
+      padding: 25px;
+      margin: 30px auto;
+      border-radius: 10px;
+      max-width: 800px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 0;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-<P style="color:blue;font-size:12px;text-align:center;">
-written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language
-</p>
+
+  <h1>Welcome to My Summary Page</h1>
+  <p style="text-align: center;">This is a simple page to display and download summaries.</p>
+
+  <div class="summary">
+    <h2>Summary Title 1</h2>
+    <p>Brief description about this summary. <br><a href="#">Download PDF</a></p>
+  </div>
+
+  <div class="summary">
+    <h2>Summary Title 2</h2>
+    <p>Brief description about this summary. <br><a href="#">Download PDF</a></p>
+  </div>
+
+  <div class="summary">
+    <h2>Summary Title 3</h2>
+    <p>Brief description about this summary. <br><a href="#">Download PDF</a></p>
+  </div>
+
 </body>
 </html>
