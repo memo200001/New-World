@@ -1,0 +1,10 @@
+<!doctype html>
+<head>
+<h1><b>"Hello New World HTML"</h1>
+</head>
+<body>
+<P style="color:blue;font-size:12px;text-align:center;">
+written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language
+</p>
+</body>
+</html>
